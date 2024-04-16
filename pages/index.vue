@@ -1,7 +1,4 @@
 <template>
     <LandingHero/>
+    <LandingFeaturedIsland/>
 </template>
-
-<script setup>
- 
-</script>
