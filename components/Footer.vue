@@ -37,7 +37,7 @@
     path: "/tours" 
   },
   { name: "Packages",
-    path: "/packages"
+    path: "/packages/index"
   },
   { name: "Destination",
     path: "/destination" 

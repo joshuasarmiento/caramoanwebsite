@@ -1,8 +1,8 @@
 <template>
   <header ref="headerRef" :style="styles" class="fixed top-0 w-full z-50">
-    <div v-if="!isScrolled" class="bg-white mx-auto px-4 sm:px-6 lg:px-8 transition-all">
+    <!-- <div v-if="!isScrolled" class="mx-auto px-4 sm:px-6 lg:px-8 py-2 transition-all">
       <Container>
-        <div class="bg-white w-full flex justify-between items-center py-[0.1rem]">
+        <div class=" w-full flex justify-between items-center py-[0.1rem]">
           <a href="#" class="flex gap-2 items-center">
             <span
               ><svg
@@ -15,13 +15,13 @@
                   d="M19.95 21q-3.125 0-6.175-1.362t-5.55-3.863t-3.862-5.55T3 4.05q0-.45.3-.75t.75-.3H8.1q.35 0 .625.238t.325.562l.65 3.5q.05.4-.025.675T9.4 8.45L6.975 10.9q.5.925 1.187 1.787t1.513 1.663q.775.775 1.625 1.438T13.1 17l2.35-2.35q.225-.225.588-.337t.712-.063l3.45.7q.35.1.575.363T21 15.9v4.05q0 .45-.3.75t-.75.3"
                 /></svg
             ></span>
-            <span class="text-sm text-black">+63 999999999</span>
+            <span class="text-sm text-white">+63 999999999</span>
           </a>
           <div class="flex gap-4 items-center justify-center">
             <a href="#"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-4 w-4 cursor-pointer text-black hover:text-[#5CB7E4]"
+                class="h-4 w-4 cursor-pointer text-white hover:text-[#5CB7E4]"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -32,7 +32,7 @@
             <a href="#"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-4 w-4 cursor-pointer text-black hover:text-[#5CB7E4]"
+                class="h-4 w-4 cursor-pointer text-white hover:text-[#5CB7E4]"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -43,7 +43,7 @@
             <a href="#"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-4 w-4 cursor-pointer text-black hover:text-[#5CB7E4]"
+                class="h-4 w-4 cursor-pointer text-white hover:text-[#5CB7E4]"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -54,33 +54,36 @@
           </div>
         </div>
       </Container>
-    </div>
+    </div> -->
     <div
       :class="{
-        'bg-white/10 backdrop-filter backdrop-blur-lg': !isScrolled,
-        'bg-white': isScrolled,
+        '': !isScrolled,
+        'bg-white shadow-sm': isScrolled,
       }"
       class="w-full sticky top-0 transition-all"
     >
       <Container>
-        <div class="flex h-16 items-center justify-between">
+        <div class="flex items-center justify-between">
           <div class="flex-1 md:flex md:items-center md:gap-12">
             <a class="block text-teal-600" href="#">
               <span class="sr-only">Home</span>
-              <NuxtImg class="h-16 w-16" src="/logo/caramoanLogo.png" alt="Logo" />
+              <NuxtImg :class="{
+                'h-16 w-16': !isScrolled,
+                'h-12 w-12': isScrolled,
+              }" src="/logo/caramoanLogo.png" alt="Logo" />
             </a>
           </div>
           <div class="md:flex md:items-center md:gap-12">
             <nav aria-label="Global" class="hidden md:block">
-              <ul class="flex items-center gap-6 text-sm">
+              <ul class="flex items-center gap-6 text-xs">
                 <li v-for="item in items" :key="item.path">
                   <ULink
                     :to="item.path"
                     :class="{
-                      'text-gray-300': !isScrolled,
+                      'text-white': !isScrolled,
                       'text-gray-600': isScrolled,
                     }"
-                    class="relative px-3 py-4 flex items-center justify-center transition hover:text-[#FF9906]"
+                    class="relative px-3 py-2 flex items-center justify-center transition hover:text-[#FF9906]"
                     active-class="text-[#FF9906]"
                   >
                     <span
@@ -137,7 +140,7 @@
       </Container>
       <div
         :class="[isClosed ? 'hidden' : 'block']"
-        class="w-full sticky top-0 transition-all pt-12 pb-20 flex flex-col gap-12"
+        class="w-full bg-white sticky top-0 transition-all pt-12 pb-20 flex flex-col gap-12"
       >
         <li
           class="flex items-center justify-center mx-auto gap-6"
@@ -146,8 +149,7 @@
         >
           <NuxtLink
             :to="item.path"
-            :class="{ 'text-gray-200': !isScrolled, 'text-gray-600': isScrolled }"
-            class="transition hover:text-[#FF9906]"
+            class="transition hover:text-[#FF9906] text-gray-600"
           >
             {{ item.name }}
           </NuxtLink>
@@ -185,7 +187,7 @@ const items = [
   },
   { name: "ABOUT", path: "/about" },
   { name: "TOURS", path: "/tours" },
-  { name: "PACKAGES", path: "/packages" },
+  { name: "PACKAGES", path: "/packages/index" },
   { name: "DESTINATION", path: "/destination" },
   { name: "CONTACT US", path: "/contact" },
 ];

@@ -8,6 +8,9 @@ export default defineNuxtConfig({
     "@nuxt/image"
   ],
 
+  css: [
+    "~/assets/css/main.css",
+  ],
   postcss: {
     plugins: {
       tailwindcss: {},

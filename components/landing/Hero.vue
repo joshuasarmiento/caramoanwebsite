@@ -18,13 +18,32 @@
                         </div>  
                         <div class="w-full mt-12 sm:mt-0 sm:w-1/2 text-white">
                             <p>Escape to a tropical paradise where pristine beaches, crystal-clear waters, and breathtaking landscapes await.</p>    
-                        </div>       
+                        </div>    
+                        <!-- <div class="w-fit mt-6">
+                            <a class="animate-bounce inline-block rounded-full border border-[#FF9906] p-3 text-[#FF9906] hover:text-[#F4E95B] focus:outline-none focus:ring" href="#">
+                            <span class="sr-only"> Download </span>
+                                <svg
+                                    class="size-5 rotate-90"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                                    />
+                                </svg>
+                            </a>   
+                        </div> -->
                     </div>
                 </Container>
             </div>
 
             <div
-                class="absolute justify-center inset-y-0 left-0 bg-[linear-gradient(50deg,_rgba(0,_0,_0,_0.62)_2.58%,_rgba(0,_0,_0,_0.31)_45.27%,_rgba(0,_0,_0,_0.00)_72.55%)] w-full">
+                class="absolute justify-center inset-0 bg-black opacity-50 w-full">
             </div>
         </div>
     </div>
