@@ -1,7 +1,7 @@
 ---
 title: "Sabitang Laya Island"
 description: "A small tropical paradise in the Caramoan group of islands"
-image: "/islands/cotivas-island.jpg"
+image: "https://64.media.tumblr.com/692c5f0f5234126a658a60c938ed2c6a/tumblr_ovwieue2E01rdjx0to1_1280.jpg"
 ---
 
 > This article was created using Gemini and meant as a placeholder

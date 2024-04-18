@@ -12,7 +12,7 @@
 
       <p class="text-xl font-bold text-white sm:text-2xl">{{ pckage.title }}</p>
 
-      <div class="mt-32 sm:mt-48">
+      <div class="mt-16">
         <div
           class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
         >

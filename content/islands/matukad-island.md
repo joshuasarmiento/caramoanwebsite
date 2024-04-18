@@ -1,7 +1,7 @@
 ---
 title: "Matukad Island"
 description: "A small tropical paradise in the Caramoan group of islands"
-image: "/islands/cotivas-island.jpg"
+image: "https://www.ironwulf.net/wp-content/uploads/2018/08/ironwulf-caramoan-peninsula.jpg"
 ---
 
 > This article was created using Gemini and meant as a placeholder

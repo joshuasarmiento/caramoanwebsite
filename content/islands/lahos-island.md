@@ -2,7 +2,7 @@
 title: "Lahos Island"
 description: "A small tropical paradise in the Caramoan group of islands"
 slug: "lahos-island"
-image: "/islands/cotivas-island.jpg"
+image: "https://4.bp.blogspot.com/-vUDs0Tk72LI/T5UKka09cpI/AAAAAAAAACc/lFD1yzqTZAY/s1600/Lahos-Island.jpg"
 ---
 
 > This article was created using Gemini and meant as a placeholder

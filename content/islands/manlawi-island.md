@@ -1,7 +1,7 @@
 ---
 title: "Manlawi Island"
 description: "A small tropical paradise in the Caramoan group of islands"
-image: "/islands/cotivas-island.jpg"
+image: "https://i.pinimg.com/originals/34/dc/1a/34dc1a67e3603bc784d842558423705f.jpg"
 ---
 
 > This article was created using Gemini and meant as a placeholder

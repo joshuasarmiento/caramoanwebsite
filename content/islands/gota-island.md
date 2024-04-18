@@ -1,7 +1,7 @@
 ---
 title: "Gota Island"
 description: "A small tropical paradise in the Caramoan group of islands"
-image: "/islands/cotivas-island.jpg"
+image: "https://images.trvl-media.com/hotels/7000000/6660000/6657100/6657004/44d9e831_z.jpg"
 ---
 
 > This article was created using Gemini and meant as a placeholder

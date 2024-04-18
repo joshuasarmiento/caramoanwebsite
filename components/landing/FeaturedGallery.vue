@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full bg-[#f3f3f3] pt-16">
+  <section class="w-full py-16 bg-gray-50">
     <Container>
       <div class="flex items-start">
         <div class="w-1/2">
@@ -26,7 +26,7 @@
         <div class="relative w-full featured-gallery">
             <div data-glide-el="track">
             <ul class="whitespace-no-wrap flex-no-wrap relative flex w-full overflow-hidden gap-0">
-                <li v-for="(item, index) in items" :key="index" class="">
+                <li v-for="(item, index) in items" :key="index" class="h-[282px] w-[423px]">
                   <img :src="item" class="bg-cover w-full h-full" />
                 </li>
             </ul>
@@ -40,11 +40,11 @@ import Glide from '@glidejs/glide';
 import { onMounted } from 'vue';
 
 const items = [
-  'https://Tailwindmix.b-cdn.net/carousel/carousel-image-05.jpg',
-  'https://Tailwindmix.b-cdn.net/carousel/carousel-image-04.jpg',
-  'https://Tailwindmix.b-cdn.net/carousel/carousel-image-03.jpg',
-  'https://Tailwindmix.b-cdn.net/carousel/carousel-image-02.jpg',
-  'https://Tailwindmix.b-cdn.net/carousel/carousel-image-01.jpg'
+  'https://www.gamintraveler.com/wp-content/uploads/2019/11/Caramoan-0414.jpg',
+  'https://c1.staticflickr.com/1/692/32535021415_4c2cc5d0df_o.jpg',
+  'https://i.pinimg.com/originals/e6/eb/6b/e6eb6b461a0667930078a4f799e39cb9.jpg',
+  'https://www.goodinfonet.com/uploads/news/goodinfonet_caramoan_group_of_islands_1601996768_0.jpg',
+  'https://assets.rappler.com/382972DA66344B5DBE96E16D51CE1D9E/img/9808710C9B4744FCAA895FBD72651132/caramoan-3.jpg'
 ]
 
 onMounted(() => {

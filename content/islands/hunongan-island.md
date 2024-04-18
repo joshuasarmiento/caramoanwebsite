@@ -1,7 +1,7 @@
 ---
 title: "Hunongan Island"
 description: "A small tropical paradise in the Caramoan group of islands"
-image: "/islands/cotivas-island.jpg"
+image: "https://exp.cdn-hotels.com/hotels/20000000/19900000/19893200/19893157/bfe316ab_z.jpg?impolicy=fcrop&w=1000&h=666&q=medium"
 ---
 
 > This article was created using Gemini and meant as a placeholder

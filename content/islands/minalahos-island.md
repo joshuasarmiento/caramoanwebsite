@@ -1,7 +1,7 @@
 ---
 title: "Minalahos Island"
 description: "A small tropical paradise in the Caramoan group of islands"
-image: "/islands/cotivas-island.jpg"
+image: "https://live.staticflickr.com/4362/36284164004_1b19f679f5_b.jpg"
 ---
 
 > This article was created using Gemini and meant as a placeholder
