@@ -10,6 +10,7 @@ export default defineNuxtConfig({
 
   css: [
     "~/assets/css/main.css",
+    '@glidejs/glide/dist/css/glide.core.min.css'
   ],
   postcss: {
     plugins: {

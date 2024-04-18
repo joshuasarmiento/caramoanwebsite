@@ -22,41 +22,52 @@
         </div>
       </div>
     </Container>
-    <div class="pt-8">
-      <UCarousel 
-        ref="carouselRef" 
-        :items="items" 
-        class="">
-        <template #default="{ item }">
-          <div>
-            <img :src="item" width="300" height="400" draggable="false" />
-          </div>
-        </template>
-      </UCarousel>
+    <div class="pt-8 overflow-hidden">
+        <div class="relative w-full featured-gallery">
+            <div data-glide-el="track">
+            <ul class="whitespace-no-wrap flex-no-wrap relative flex w-full overflow-hidden gap-0">
+                <li v-for="(item, index) in items" :key="index" class="">
+                  <img :src="item" class="bg-cover w-full h-full" />
+                </li>
+            </ul>
+            </div>
+        </div>
     </div>
   </section>
 </template>
-<script setup lang="ts">
+<script setup>
+import Glide from '@glidejs/glide';
+import { onMounted } from 'vue';
+
 const items = [
-  'https://picsum.photos/600/800?random=1',
-  'https://picsum.photos/600/800?random=2',
-  'https://picsum.photos/600/800?random=3',
-  'https://picsum.photos/600/800?random=4',
-  'https://picsum.photos/600/800?random=5',
-  'https://picsum.photos/600/800?random=6'
+  'https://Tailwindmix.b-cdn.net/carousel/carousel-image-05.jpg',
+  'https://Tailwindmix.b-cdn.net/carousel/carousel-image-04.jpg',
+  'https://Tailwindmix.b-cdn.net/carousel/carousel-image-03.jpg',
+  'https://Tailwindmix.b-cdn.net/carousel/carousel-image-02.jpg',
+  'https://Tailwindmix.b-cdn.net/carousel/carousel-image-01.jpg'
 ]
 
-const carouselRef = ref()
-
 onMounted(() => {
-  setInterval(() => {
-    if (!carouselRef.value) return
-
-    if (carouselRef.value.page === carouselRef.value.pages) {
-      return carouselRef.value.select(0)
-    }
-
-    carouselRef.value.next()
-  }, 3000)
+  new Glide('.featured-gallery', {
+    type: 'carousel',
+    autoplay: 1,
+    animationDuration: 8500,
+    animationTimingFunc: 'linear',
+    perView: 3,
+    gap: 0,
+    classes: {
+      activeNav: '[&>*]:bg-slate-700',
+    },
+    breakpoints: {
+      1024: {
+        perView: 2,
+        gap: 0,
+      },
+      640: {
+        perView: 1,
+        gap: 0,
+      },
+    },
+  }).mount();
 })
 </script>
