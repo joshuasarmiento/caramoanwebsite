@@ -8,7 +8,7 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
             
-            <video class="absolute -translate-x-2/4 -translate-y-2/4 w-[2000px] h-[1130px] pointer-events-none left-2/4 top-2/4" autoplay muted loop> 
+            <video width="100%" height="100%" class="absolute w-full h-full object-cover left-0 top-0" autoplay muted loop> 
                 <source src="/video/caramoan4k.mp4" type="video/mp4"> 
                 Your browser does not support the video tag. 
             </video>
@@ -17,15 +17,14 @@
                 <Container>
                     <div class="flex flex-col justify-center text-center sm:text-start h-screen mx-auto">
                         <div class="flex flex-col gap-0">
-                            <h1 class="z-10 sm:-mb-12 text-white text-[2rem] sm:text-[3.5rem] font-extralight ">Discover</h1> 
-                            <h1 class="font-island text-[3rem] sm:text-[8rem] bg-clip-text text-transparent bg-gradient-to-r from-[#FF9906] to-[#F4E95B]">CARAMOAN</h1>
-                            <h1 class="z-10 sm:-mt-12 text-white  text-[2rem] sm:text-[3.5rem] font-extralight ">Paradise</h1>
+                            <h1 class="animate-text font-island bg-gradient-to-r  from-[#C71513] via-[#FF9906] to-[#F4E95B] bg-clip-text text-transparent text-[3rem] sm:text-[6rem] font-black">CARAMOAN</h1>
+                            <h1 class="z-10 sm:-mt-12 text-white  text-[2rem] sm:text-[3.5rem] font-extralight ">Island Tour Package</h1>
                         </div>  
                         <div class="w-full mt-12 sm:mt-0 sm:w-1/2 text-white">
                             <p>Escape to a tropical paradise where pristine beaches, crystal-clear waters, and breathtaking landscapes await.</p>    
                         </div>    
-                        <!-- <div class="w-fit mt-6">
-                            <a class="animate-bounce inline-block rounded-full border border-[#FF9906] p-3 text-[#FF9906] hover:text-[#F4E95B] focus:outline-none focus:ring" href="#">
+                        <!-- <div class="absolute bottom-10 w-fit mx-auto mt-6">
+                            <NuxtLink to="#featured-island" class="animate-bounce inline-block rounded-full border border-[#FF9906] p-3 text-[#FF9906] hover:text-[#F4E95B]">
                             <span class="sr-only"> Download </span>
                                 <svg
                                     class="size-5 rotate-90"
@@ -41,7 +40,7 @@
                                     d="M14 5l7 7m0 0l-7 7m7-7H3"
                                     />
                                 </svg>
-                            </a>   
+                            </NuxtLink>   
                         </div> -->
                     </div>
                 </Container>

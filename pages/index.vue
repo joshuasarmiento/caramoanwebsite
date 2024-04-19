@@ -1,7 +1,7 @@
 <template>
   <div class="bg-[#f3f3f3]">
     <LandingHero />
-    <LandingFeaturedIsland />
+    <LandingFeaturedDestination />
     <LandingFeaturedGallery />
     <LandingFeaturedPackages />
     <LandingCTAcontacts />

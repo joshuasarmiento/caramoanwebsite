@@ -1,6 +1,6 @@
 <template>
   <main class="min-h-screen text-black">
-    <ContentDoc v-slot="{ doc }" tag="island" >
+    <ContentDoc v-slot="{ doc }" tag="destination" >
       <article>
           <h1>{{ doc.title }}</h1>
           <ContentRenderer :value="doc" />

@@ -6,8 +6,7 @@
                     <span class="font-island text-[4rem] text-[#FF9906]">Our Packages</span>
                 </h2>
                 <p class="text-black text-center tracking-wide -mt-3 mb-4">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo veritatis quaerat nemo sed dolorem rerum officia aliquid. Dignissimos repellendus doloremque aut 
-                    consectetur fugit et quos animi, quia, error hic quaerat.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo veritatis quaerat nemo sed dolorem rerum officia aliquid.
                 </p>
             </div>
             <ul class="grid grid-cols-3 gap-4">

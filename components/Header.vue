@@ -65,13 +65,13 @@
       <Container>
         <div class="flex items-center justify-between">
           <div class="flex-1 md:flex md:items-center md:gap-12">
-            <a class="block text-teal-600" href="#">
+            <NuxtLink class="block text-teal-600" to="/">
               <span class="sr-only">Home</span>
               <NuxtImg :class="{
                 'h-16 w-16': !isScrolled,
                 'h-12 w-12': isScrolled,
               }" src="/logo/caramoanLogo.png" alt="Logo" />
-            </a>
+            </NuxtLink>
           </div>
           <div class="md:flex md:items-center md:gap-12">
             <nav aria-label="Global" class="hidden md:block">
@@ -187,8 +187,8 @@ const items = [
   },
   { name: "ABOUT", path: "/about" },
   { name: "TOURS", path: "/tours" },
-  { name: "PACKAGES", path: "/packages/index" },
-  { name: "DESTINATION", path: "/destination" },
+  { name: "PACKAGES", path: "/packages" },
+  { name: "DESTINATION", path: "/destinations" },
   { name: "CONTACT US", path: "/contact" },
 ];
 </script>

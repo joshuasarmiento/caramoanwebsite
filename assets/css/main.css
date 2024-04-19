@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
     background-color: rgb(250, 249, 246);
     color: rgb(32, 32, 32);
 }

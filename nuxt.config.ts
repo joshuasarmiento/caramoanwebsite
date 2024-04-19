@@ -24,7 +24,8 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       Montserrat: true,
-      'Island+Moments': true
+      'Island+Moments': true,
+      Cinzel: true,
     }
   }
 })
