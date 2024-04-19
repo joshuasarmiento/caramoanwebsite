@@ -1,7 +1,7 @@
 <template>
   <div>
     <NuxtLink
-      class="group relative inline-flex items-center overflow-hidden rounded bg-[#FF9906] px-8 py-3 text-white focus:outline-none focus:ring active:[#FF9906]"
+      class="group relative inline-flex items-center overflow-hidden rounded bg-[#3D441E] px-8 py-3 text-white focus:outline-none focus:ring active:[#3D441E]"
       :to="link"
     >
       <span class="absolute -end-full transition-all group-hover:end-4">

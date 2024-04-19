@@ -4,8 +4,8 @@
       class="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8"
     >
       <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
-        <div>
-          <NuxtImg class="h-20 w-20" src="/logo/caramoanLogo.png" alt="Footer Logo" />
+        <div class="">
+          <NuxtImg class="h-8 w-fit" src="/logo/caramoanLogo.png" alt="Footer Logo" />
 
           <p class="mt-4 max-w-xs text-gray-500">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse non cupiditate
@@ -135,7 +135,7 @@
 
         <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4">
           <div>
-            <p class="font-medium text-[#FF9906]">Services</p>
+            <p class="font-medium text-[#3D441E]">Services</p>
 
             <ul class="mt-6 space-y-4 text-sm">
               <li>
@@ -171,7 +171,7 @@
           </div>
 
           <div>
-            <p class="font-medium text-[#FF9906]">Company</p>
+            <p class="font-medium text-[#3D441E]">Company</p>
 
             <ul class="mt-6 space-y-4 text-sm">
               <li>
@@ -193,7 +193,7 @@
           </div>
 
           <div>
-            <p class="font-medium text-[#FF9906]">Helpful Links</p>
+            <p class="font-medium text-[#3D441E]">Helpful Links</p>
 
             <ul class="mt-6 space-y-4 text-sm">
               <li>
@@ -215,7 +215,7 @@
           </div>
 
           <div>
-            <p class="font-medium text-[#FF9906]">Legal</p>
+            <p class="font-medium text-[#3D441E]">Legal</p>
 
             <ul class="mt-6 space-y-4 text-sm">
               <li>

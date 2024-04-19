@@ -64,12 +64,12 @@
     >
       <Container>
         <div class="flex items-center justify-between">
-          <div class="flex-1 md:flex md:items-center md:gap-12">
-            <NuxtLink class="block text-teal-600" to="/">
+          <div class="flex-1 md:flex md:items-center md:gap-12 p-2">
+            <NuxtLink class="block" to="/">
               <span class="sr-only">Home</span>
               <NuxtImg :class="{
-                'h-16 w-16': !isScrolled,
-                'h-12 w-12': isScrolled,
+                'h-8 w-full': !isScrolled,
+                'h-6 w-full': isScrolled,
               }" src="/logo/caramoanLogo.png" alt="Logo" />
             </NuxtLink>
           </div>
@@ -83,12 +83,12 @@
                       'text-white': !isScrolled,
                       'text-gray-600': isScrolled,
                     }"
-                    class="relative px-3 py-2 flex items-center justify-center transition hover:text-[#FF9906]"
-                    active-class="text-[#FF9906]"
+                    class="relative px-3 py-2 flex items-center justify-center transition hover:text-[#3D441E]"
+                    active-class="text-[#3D441E]"
                   >
                     <span
                       v-if="$route.path === item.path"
-                      class="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-[#FF9906]/0 via-[#FF9906]/70 to-[#FF9906]/0"
+                      class="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-[#3D441E]/0 via-[#3D441E]/70 to-[#3D441E]/0"
                     ></span>
                     <span> {{ item.name }} </span>
                   </ULink>

@@ -1,12 +1,13 @@
 <template>
     <Container>
         <div class="flex flex-col py-16 gap-6 w-full">
-            <div class="w-1/2 flex flex-col mx-auto items-center justify-center text-center">
+            <div class="w-[70%] flex flex-col mx-auto items-center justify-center text-center">
                 <h2 class="flex gap-2 justify-center items-center text-center font-semibold text-gray-600 mb-6">
-                    <span class="font-island text-[4rem] text-[#FF9906]">Our Packages</span>
+                    <span class="font-island text-[4rem] text-[#A2A569]">Caramoan Getaway</span>
                 </h2>
                 <p class="text-black text-center tracking-wide -mt-3 mb-4">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo veritatis quaerat nemo sed dolorem rerum officia aliquid.
+                    Whether you're seeking a romantic retreat, a family-friendly vacation, or an adrenaline-pumping adventure, 
+                    our featured packages offer the perfect blend of comfort, excitement, and authentic local experiences.
                 </p>
             </div>
             <ul class="grid grid-cols-3 gap-4">

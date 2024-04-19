@@ -1,21 +1,21 @@
 <template>
   <Container>
     <div id="featured-destination"  class="flex py-16 gap-6">
-      <div class="w-[30%] flex flex-col items-start justify-center">
+      <div class="w-[40%] flex flex-col items-start justify-center">
         <h2
           class="flex flex-col gap-2 justify-center items-start font-semibold text-gray-600 mb-6"
         >
-          <span class="text-4xl font-light">Must Visit</span>
-          <span class="-mt-6 font-island text-[5rem] text-[#FF9906]">Beaches</span>
+          <span class="text-4xl font-light">Enchanting</span>
+          <span class="-mt-6 font-island text-[5rem] text-[#A2A569]">Islands</span>
         </h2>
-        <p class="text-black tracking-wide -mt-3 mb-4">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        <p class="text-black tracking-wide -mt-6 mb-4">
+          Explore the untouched beauty of this remote 
+          archipelago and immerse yourself in the tranquility of nature.
         </p>
         <ButtonOutline :text="'View More'" link="/destinations" />
       </div>
 
-      <div class="w-[70%] relative featured-destination">
+      <div class="w-[60%] relative featured-destination">
         <div class="overflow-hidden" data-glide-el="track">
           <ul
             class="relative w-full overflow-hidden p-0 whitespace-no-wrap flex flex-no-wrap"
@@ -27,13 +27,13 @@
         </div>
         <!-- Controls -->
         <div class="absolute left-0 flex items-center justify-between w-full h-0 px-4 top-1/2 " data-glide-el="controls">
-            <button class="inline-flex items-center justify-center w-8 h-8 transition duration-300 border rounded-full text-[#FF9906] border-[#FF9906] hover:border-white focus-visible:outline-none bg-[#FF9906]/20 hover:bg-white" data-glide-dir="<" aria-label="prev slide">
+            <button class="inline-flex items-center justify-center w-8 h-8 transition duration-300 border rounded-full text-[#3D441E] border-[#3D441E] hover:border-white focus-visible:outline-none bg-[#3D441E]/20 hover:bg-white" data-glide-dir="<" aria-label="prev slide">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
                     <title>prev slide</title>
                     <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
                 </svg>
             </button>
-            <button class="inline-flex items-center justify-center w-8 h-8 transition duration-300 border rounded-full text-[#FF9906] border-[#FF9906] hover:border-white focus-visible:outline-none bg-[#FF9906]/20 hover:bg-white" data-glide-dir=">" aria-label="next slide">
+            <button class="inline-flex items-center justify-center w-8 h-8 transition duration-300 border rounded-full text-[#3D441E] border-[#3D441E] hover:border-white focus-visible:outline-none bg-[#3D441E]/20 hover:bg-white" data-glide-dir=">" aria-label="next slide">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
                     <title>next slide</title>
                     <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />

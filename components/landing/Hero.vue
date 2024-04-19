@@ -7,22 +7,31 @@
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
-            
-            <video width="100%" height="100%" class="absolute w-full h-full object-cover left-0 top-0" autoplay muted loop> 
-                <source src="/video/caramoan4k.mp4" type="video/mp4"> 
-                Your browser does not support the video tag. 
+
+            <video width="100%" height="100%" class="absolute w-full h-full object-cover left-0 top-0" autoplay muted
+                loop>
+                <source src="/video/caramoan4k.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
             </video>
-            
-            <div class=" absolute w-full z-10">
+
+            <div class="absolute w-full z-10">
                 <Container>
                     <div class="flex flex-col justify-center text-center sm:text-start h-screen mx-auto">
                         <div class="flex flex-col gap-0">
-                            <h1 class="animate-text font-island bg-gradient-to-r  from-[#C71513] via-[#FF9906] to-[#F4E95B] bg-clip-text text-transparent text-[3rem] sm:text-[6rem] font-black">CARAMOAN</h1>
-                            <h1 class="z-10 sm:-mt-12 text-white  text-[2rem] sm:text-[3.5rem] font-extralight ">Island Tour Package</h1>
-                        </div>  
+                            <h1
+                                class="animate-text font-island bg-gradient-to-r from-[#3D441E] via-[#6D712E] to-[#737B4C] bg-clip-text text-transparent text-[3rem] sm:text-[6rem] font-black">
+                                CARAMOAN
+                            </h1>
+                            <h1 class="z-10 sm:-mt-12 text-white text-[2rem] sm:text-[3.5rem] font-extralight">
+                                Islands in the Philippines
+                            </h1>
+                        </div>
                         <div class="w-full mt-12 sm:mt-0 sm:w-1/2 text-white">
-                            <p>Escape to a tropical paradise where pristine beaches, crystal-clear waters, and breathtaking landscapes await.</p>    
-                        </div>    
+                            <p>
+                                Explore the pristine white sand beaches, crystal-clear turquoise waters,
+                                lush tropical landscapes, and vibrant marine life of Caramoan
+                            </p>
+                        </div>
                         <!-- <div class="absolute bottom-10 w-fit mx-auto mt-6">
                             <NuxtLink to="#featured-island" class="animate-bounce inline-block rounded-full border border-[#FF9906] p-3 text-[#FF9906] hover:text-[#F4E95B]">
                             <span class="sr-only"> Download </span>
@@ -46,9 +55,7 @@
                 </Container>
             </div>
 
-            <div
-                class="absolute justify-center inset-0 bg-black opacity-50 w-full">
-            </div>
+            <div class="absolute justify-center inset-0 bg-black opacity-50 w-full"></div>
         </div>
     </div>
 </template>

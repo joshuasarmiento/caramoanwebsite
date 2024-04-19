@@ -1,23 +1,20 @@
 <template>
-  <section class="w-full py-16 bg-gray-50">
+  <section class="w-full pt-16 bg-[#A2A569]/20">
     <Container>
       <div class="flex items-start">
         <div class="w-1/2">
           <h2
             class="flex flex-col gap-2 justify-center items-start font-semibold text-gray-600 mb-6"
           >
-            <span class="text-4xl font-light">Tailor Made </span>
-            <span class="-mt-6 font-island text-[5rem] text-[#FF9906]">Journeys</span>
+            <span class="text-4xl font-light">Experience the Magic of Caramoan</span>
+            <span class="-mt-6 font-island text-[5rem] text-[#A2A569]">Through Our Lens</span>
           </h2>
         </div>
         <div class="w-1/2">
           <p class="font-light tracking-wide text-black leading-[1.66] text-base">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas voluptatem sed
-            veritatis facilis eligendi eaque cum alias nobis magnam esse nulla hic
-            corrupti consectetur vitae, perferendis quibusdam amet! Vel, sit. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit. Nobis eveniet labore asperiores
-            distinctio nostrum officiis repudiandae excepturi aliquid quas dicta!
-            Inventore dolorum rem enim doloremque. Minus, itaque! Mollitia, minus ea.
+            Get a glimpse of the breathtaking wonders that await you in Caramoan. From the stunning island 
+            landscapes to the vibrant marine life, our gallery showcases the best of this tropical paradise. 
+            Let these images inspire your next adventure.
           </p>
         </div>
       </div>
