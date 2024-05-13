@@ -1,7 +1,8 @@
 ---
-title: "Gota Island"
+title: "Gota Beach"
 description: "A small tropical paradise in the Caramoan group of islands"
 image: "https://images.trvl-media.com/hotels/7000000/6660000/6657100/6657004/44d9e831_z.jpg"
+tags: ["island"]
 ---
 
 > This article was created using Gemini and meant as a placeholder

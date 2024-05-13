@@ -2,6 +2,7 @@
 title: "Tayak Beach"
 description: "A small tropical paradise in the Caramoan group of islands"
 image: "https://i.pinimg.com/originals/95/8f/c6/958fc662bc2e5a54e297b01a5741f9db.jpg"
+tags: ["island"]
 ---
 
 > This article was created using Gemini and meant as a placeholder

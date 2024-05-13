@@ -2,6 +2,7 @@
 title: "Minalahos Island"
 description: "A small tropical paradise in the Caramoan group of islands"
 image: "https://live.staticflickr.com/4362/36284164004_1b19f679f5_b.jpg"
+tags: ["island"]
 ---
 
 > This article was created using Gemini and meant as a placeholder
@@ -22,6 +23,8 @@ Cotivas offers a serene escape with its uncrowded shores. Relax under the shade 
 ### ature Enthusiasts: 
 Explore the surrounding waters and discover the vibrant marine life.
 Things to Do:
+
+![image](https://live.staticflickr.com/4362/36284164004_1b19f679f5_b.jpg)
 
 ### Swimming and Snorkeling: 
 The clear waters offer excellent visibility for exploring the coral reefs and diverse fish species.

@@ -2,6 +2,7 @@
 title: "Cotivas Island"
 description: "A small tropical paradise in the Caramoan group of islands"
 image: "https://2.bp.blogspot.com/-0BGv1dEHBKc/VofV8tk6E8I/AAAAAAAB_TU/Zr4Ru72XjxM/s1600/COTIVAS%2BISLAND%2B%252810%2529.JPG"
+tags: ["island"]
 ---
 
 > This article was created using Gemini and meant as a placeholder

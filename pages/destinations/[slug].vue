@@ -1,12 +1,18 @@
 <template>
-  <main class="min-h-screen text-black">
-    <ContentDoc v-slot="{ doc }" tag="destination" >
-      <article>
-          <h1>{{ doc.title }}</h1>
-          <ContentRenderer :value="doc" />
+  <ContentDoc v-slot="{ doc }" tag="destination">
+    <section>
+      <div
+         class="h-[250px] bg-cover bg-center bg-no-repeat"
+        :style="{ backgroundImage: `url(${doc.image})` }"
+      ></div>
+    </section>
+    <Container>
+      <article class="prose max-w-full mt-12">
+        <h1>{{ doc.title }}</h1>
+        <ContentRenderer :value="doc" />
       </article>
-    </ContentDoc>
-  </main>
+    </Container>
+  </ContentDoc>
 </template>
 <script setup>
 const route = useRoute();

@@ -2,6 +2,7 @@
 title: "Pitogo Island"
 description: "A small tropical paradise in the Caramoan group of islands"
 image: "https://i.pinimg.com/originals/24/21/ea/2421ea8f3b300c790764371056e64d8a.jpg"
+tags: ["island"]
 ---
 
 > This article was created using Gemini and meant as a placeholder

@@ -5,8 +5,8 @@
         <h2
           class="flex flex-col gap-2 justify-center items-start font-semibold text-gray-600 mb-6"
         >
-          <span class="text-4xl font-light">Enchanting</span>
-          <span class="-mt-6 font-island text-[5rem] text-[#A2A569]">Islands</span>
+          <span class="text-4xl font-light">Caramoan Top</span>
+          <span class="-mt-6 font-island text-[5rem] text-[#A2A569]">Destinations</span>
         </h2>
         <p class="text-black tracking-wide -mt-6 mb-4">
           Explore the untouched beauty of this remote 
@@ -51,7 +51,7 @@ import { onMounted } from "vue";
 
 const { data: destinations } = await useAsyncData("destinations-home", () =>
   queryContent("/destinations")
-    .sort({ published: -1 })
+    .sort({ title: 1, published: -1 })
     .limit(data => data.length)
     .only(["title", "description", "image", "slug", "_path"])
     .find()

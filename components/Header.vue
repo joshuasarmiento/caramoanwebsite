@@ -68,8 +68,8 @@
             <NuxtLink class="block" to="/">
               <span class="sr-only">Home</span>
               <NuxtImg :class="{
-                'h-8 w-full': !isScrolled,
-                'h-6 w-full': isScrolled,
+                'h-8': !isScrolled,
+                'h-6': isScrolled,
               }" src="/logo/caramoanLogo.png" alt="Logo" />
             </NuxtLink>
           </div>
