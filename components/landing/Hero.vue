@@ -19,7 +19,7 @@
                     <div class="flex flex-col justify-center text-center sm:text-start h-screen mx-auto">
                         <div class="flex flex-col gap-0">
                             <h1
-                                class="animate-text font-island bg-gradient-to-r from-[#3D441E] via-[#6D712E] to-[#737B4C] bg-clip-text text-transparent text-[3rem] sm:text-[6rem] font-black">
+                                class="font-island text-[3rem] text-[#737B4C] sm:text-[6rem] font-black">
                                 CARAMOAN
                             </h1>
                             <h1 class="z-10 sm:-mt-12 text-white text-[2rem] sm:text-[3.5rem] font-extralight">
